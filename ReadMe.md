@@ -137,4 +137,59 @@ Non-Primitive Datatypes
 
 1. Array : can store multiple datatypes as values in zero indexed manner
 2. Function : block of codes which can be called whenever necessary
-3. Object : holds properties and values
+3. Object : holds properties, values and methods
+
+### Conditions
+
+- If Else condition
+  When a condition is true the code in code block of if will be executed or
+  else code block will be executed, If we want to check some more condition
+  else if can be used
+
+  Syntax
+
+  ```
+  if(condition){
+      //If condition is true executed
+  } else if(condition){
+      //If this condition is true will be executed
+  }else {
+      //If both the conditions are not true will be executed
+  }
+  ```
+
+#### Comparison Operators
+
+- Used to compare 2 values
+
+1. '<' less than
+2. '>' greater than
+3. '>=' greater than equal to
+4. '<=' less than equal to
+5. '==' equal to
+6. '!=' not equal to
+7. '===' strict equal to it checks datatype also
+8. '!==' strict not equal to
+
+- example
+
+```
+let a = 1;
+let b = 2;
+
+if (a > b) {
+ console.log("a > b");
+} else {
+ console.log("a < b");
+}
+
+let x = 1;
+let y = "1"; //implicit type conversion
+if (x === y) {
+ console.log("x == y");
+} else if (x == y) {
+ console.log("x == y");
+}
+```
+
+### Logical Operators

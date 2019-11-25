@@ -38,6 +38,7 @@ function paraArgs(firstParameter, secondParameter) {
 paraArgs(arg1, arg2);
 // if we dont pass anyone of the arguments then it will be assigned to undefined
 */
+
 /*Return Statment 
 Returns a value from function*/
 function ret() {

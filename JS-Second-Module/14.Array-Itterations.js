@@ -17,7 +17,6 @@ for (let i = 0; i < number.length; i++) {
   console.log(`for loop element :`, i);
   console.log(`for loop index :`, number.indexOf(i));
 }
-
 number.forEach(function(ele, index, array) {
   console.log("element :", ele);
   console.log(`index :`, index);
@@ -77,3 +76,18 @@ console.log(`.reduce() :`, reduceResults);
 filter changes the lenght based on condition
 map only changes array value
 */
+
+/*Array Chaining 
+Can add more than one itterator to an array*/
+
+let fruits = ["orange", "apple", "bannana", "guava"];
+
+let arrChain = fruits
+  .filter(function(ele) {
+    return ele == "orange";
+  })
+  .map(function(ele) {
+    return (ele = `${ele} is for sale`);
+  });
+
+console.log(`Array chaining`, arrChain);

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Temperatur Converter</title>
+  </head>
+  <body>
+    <h3>Temperatur App Using prompt</h3>
+    <script>
+      let val = prompt(
+        "celicus to fahrenheit press 1 OR fahrenheit to celcius press 2"
+      );
+      if (val == 1) {
+        let temp = prompt("Enter temperature in Celcius");
+        function celciusToFar(temp) {
+          let far = ((temp * 9) / 5 + 32).toFixed(2);
+          alert(`${temp} in C is ${far} in F`);
+          console.log(`${temp} in C is ${far} in F`);
+
+          return far;
+        }
+        celciusToFar(temp);
+      } else if (val == 2) {
+        let temp = prompt("Enter the temperature in Fahrenheit");
+
+        function fahrenheitToCel(temp) {
+          let cel = (((temp - 32) * 5) / 9).toFixed(2);
+          alert(`${temp} in F is ${cel} in C`);
+          console.log(`${temp} in F is ${cel} in C`);
+        }
+        fahrenheitToCel(temp);
+      }
+    </script>
+  </body>
+</html>
