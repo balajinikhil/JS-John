@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #ffd0a8;
+  color: #333;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.container {
+  padding: 2rem;
+  border-radius: 5px;
+  background: #fff;
+  flex: 0 0 80%;
+  text-align: center;
+}
+
+#btn {
+  border: none;
+  color: #fff;
+  background: #d89156;
+  font-size: 1.3rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #ffd000;
+}
+
+blockquote {
+  color: #000;
+  border: 10px solid #fcdbbf;
+  margin: 1.5rem;
+  padding: 0.5rem;
+}
+
+#quoteAuthor {
+  color: #ffd000;
+}

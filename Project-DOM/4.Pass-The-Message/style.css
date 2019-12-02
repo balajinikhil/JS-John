@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: aquamarine;
+}
+
+.container {
+  flex: 0 0 80%;
+  padding: 2rem;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.inpt {
+  padding: 2px;
+  border: 0.1em solid aqua;
+  font-size: 18px;
+}
+
+#btn {
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  background: #0a414e;
+  color: whitesmoke;
+  padding: 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: aqua;
+}
+
+#opt {
+  font-size: large;
+  font-weight: 250;
+  color: burlywood;
+}
