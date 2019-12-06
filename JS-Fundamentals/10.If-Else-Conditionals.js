@@ -24,7 +24,7 @@ if (a > b) {
 let x = 1;
 let y = "1"; //implicit type conversion
 if (x === y) {
-  console.log("x == y");
+  console.log("x === y");
 } else if (x == y) {
   console.log("x == y");
 }

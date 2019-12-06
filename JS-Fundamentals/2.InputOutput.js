@@ -1,5 +1,5 @@
 document.write("Hello World");
 
-// alert('Hello People')
+// alert("Hello People");
 
 console.log("Hello from console");
