@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Budget App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>Budget App</h2>
+    <div class="grid-container">
+      <!-- budget input -->
+      <div class="budget-ip">
+        <h3>Please Enter Your Budget</h3>
+        <h3 class="err">Value cannot be zero or negative</h3>
+        <input type="number" class="budget-inpt" />
+        <br />
+        <button class="btn budget-btn">Calculate</button>
+      </div>
+      <!-- budget display -->
+      <div class="budget-disp">
+        <h3>Budget</h3>
+        <h4 class="budget-out"></h4>
+        <h3>Expenses</h3>
+        <h4 class="expense-out"></h4>
+        <h3>Balance</h3>
+        <h4 class="balance"></h4>
+      </div>
+      <!-- expense -->
+      <div class="expenses">
+        <h3 class="err">Value cannot be zero or negative</h3>
+        <h3>Enter Your Expenses</h3>
+        <input type="text" class="expense-txt" />
+        <br />
+        <br />
+
+        <h3>Enter Expense Amount</h3>
+        <input type="number" class="expense-amt" />
+        <br />
+        <button class="btn expense-btn" type="button">Add Expenses</button>
+      </div>
+      <!-- calculation -->
+      <div class="create"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

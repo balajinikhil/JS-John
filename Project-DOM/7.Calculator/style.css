@@ -3,16 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+.calculator {
+  min-height: 100%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid black;
 }
 
 .screen {
-  width: 80vw;
+  width: 100%;
   display: block;
   border: none;
   background: rgb(41, 41, 51);
@@ -22,11 +30,10 @@ body {
 }
 
 .btn {
-  width: 20vw;
+  width: 20%;
   display: inline-block;
   padding: 2rem 0;
-  border-radius: 2px;
-  flex: wrap;
+  margin: 0;
 }
 
 .yellow-btn {
@@ -39,17 +46,21 @@ body {
 
 .equal {
   width: 20vw;
+  height: 10vh;
   display: inline-block;
   padding: 2rem 0;
   border-radius: 2px;
   flex: wrap;
   background: lime;
+  flex-grow: 1;
 }
 .clear {
   width: 20vw;
+  height: 10vh;
   display: inline-block;
   padding: 2rem 0;
   border-radius: 2px;
   flex: wrap;
   background: red;
+  flex-grow: 1;
 }
