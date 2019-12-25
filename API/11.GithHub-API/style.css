@@ -47,3 +47,9 @@ h5 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.res {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
