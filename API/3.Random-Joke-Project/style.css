@@ -1,0 +1,32 @@
+body {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-image: url("./background.jpg"),
+    linear-gradient(rgba(255, 0, 0, 0.4), rgba(0, 0, 0, 1));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.4rem;
+  background-blend-mode: lighten;
+  font-style: bold;
+  text-align: center;
+}
+
+.btn {
+  padding: 15px;
+  outline: none;
+  box-shadow: 5px 5px #000;
+  letter-spacing: 0.4rem;
+  font-family: "Courier New", Courier, monospace;
+  background: silver;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  box-shadow: none;
+}

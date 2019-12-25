@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 25vw;
+  height: 60vh;
+  align-self: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.btn {
+  padding: 10px;
+  margin: 15px 0 15px 0;
+  border: 0.5px solid #000;
+  background: transparent;
+  box-shadow: 2px 2px #000;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.inpt {
+  padding: 5px;
+}
+
+.txt {
+  background: silver;
+  padding: 10px;
+}

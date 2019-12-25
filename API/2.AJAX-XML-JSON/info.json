@@ -1,0 +1,11 @@
+{
+  "cartItems": {
+    "name": "Food",
+    "company": "Swiggy"
+  },
+  "ItemDetails": [
+    { "id": 1, "resturant": "KFC", "type": "non-veg" },
+    { "id": 2, "resturant": "CCD", "type": "veg" },
+    { "id": 3, "resturant": "Subway", "type": "both" }
+  ]
+}

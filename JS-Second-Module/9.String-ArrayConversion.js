@@ -10,9 +10,9 @@ console.log(`.join() :`, arr.join(" "));
 /*Reverse a string */
 function reverseString(str1) {
   arr1 = str1
-    .split("")
+    .split(" ")
     .reverse()
-    .join("");
+    .join(" ");
   console.log(arr1);
 }
 reverseString("what the facebook");

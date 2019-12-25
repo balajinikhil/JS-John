@@ -12,7 +12,7 @@ i.e Address of the value will be stored which is reference of source value
 
 //Primitive
 let a = 1;
-let b = 1;
+let b = a;
 
 b = 5; //reassigning
 console.log("Source value :" + a);

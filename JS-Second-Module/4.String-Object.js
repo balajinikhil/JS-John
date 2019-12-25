@@ -28,7 +28,7 @@ console.log(`.toUpperCase() :`, nme.toUpperCase());
 
 /*.charAt()
 gives character at specified index, it is zero indexed */
-console.log(".charAt() :", nme.charAt(0));
+console.log(".charAt() :", nme.charAt(1));
 console.log(`charAt(.length-1) :`, nme.charAt(nme.length - 1)); //last char
 
 /*.indexOf('')

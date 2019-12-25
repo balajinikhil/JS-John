@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 15px;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.container > h5 {
+  display: inline !important;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.1rem;
+
+  padding: 5px;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+
+.btn {
+  padding: 5px;
+  margin-bottom: 25px;
+  outline: none;
+  box-shadow: 5px 5px #000;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+p {
+  display: inline;
+}

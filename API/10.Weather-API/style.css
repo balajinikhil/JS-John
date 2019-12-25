@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.2rem;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  color: whitesmoke;
+  /* text-align: center; */
+  padding: 70px;
+  background: rgba(44, 66, 90, 0.7);
+}
+
+.btn {
+  border: 1px solid whitesmoke;
+  padding: 7px;
+  background: #fff;
+  box-shadow: 5px 5px #000;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+
+.ipt {
+  padding: 7px;
+}

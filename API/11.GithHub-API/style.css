@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  margin: 25px 0 25px 0;
+}
+
+.ipt {
+  padding: 7px;
+}
+
+.btn {
+  border: 1px solid black;
+  background: whitesmoke;
+  padding: 7px;
+  box-shadow: 3px 3px #000;
+}
+
+.container {
+  margin-left: 15px 0 15px 15px;
+  padding: 30px;
+  background: silver;
+}
+
+h5 {
+  color: #195190ff;
+  text-align: justify;
+}
+
+.holder {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
