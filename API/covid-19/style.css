@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 0.01rem;
+  margin: 0 7%;
+  font-family: "Courier New", Courier, monospace;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-data {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.btn {
+  margin: 7% 0;
+  padding: 2%;
+  border: 1px dotted royalblue;
+}
+
+.lastUpdate {
+  color: blue;
+}
+
+h5 {
+  background-color: snow;
+}
+
+.container {
+  background-color: snow;
+  margin: 2% 0;
+  padding: 20px;
+}
+
+.totalDeaths {
+  padding: 5px;
+  background-color: silver;
+}
+
+.totalDeathsInd {
+  padding: 5px;
+  background-color: silver;
+}
+
+.newRecovered {
+  color: snow;
+  padding: 5px;
+  background-color: yellowgreen;
+}
+
+.newRecoveredInd {
+  color: snow;
+  padding: 5px;
+  background-color: yellowgreen;
+}
+
+.newConfirmed {
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+.newConfirmedInd {
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+.totalConfirmed {
+  color: snow;
+  padding: 5px;
+  background-color: tomato;
+}
+
+.totalConfirmedInd {
+  color: snow;
+  padding: 5px;
+  background-color: tomato;
+}
+
+.totalRecovered {
+  padding: 5px;
+  background-color: lightgreen;
+}
+
+.totalRecoveredInd {
+  padding: 5px;
+  background-color: lightgreen;
+}
+
+.newDeaths {
+  color: snow;
+  padding: 5px;
+  background-color: lightslategray;
+}
+
+.newDeathsInd {
+  color: snow;
+  padding: 5px;
+  background-color: lightslategray;
+}

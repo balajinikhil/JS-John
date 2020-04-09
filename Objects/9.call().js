@@ -7,15 +7,16 @@ Function is called methods inside objects
  object in which the method has to be called must be specified*/
 
 function method() {
-  console.log("Why is OOP so confusing?");
+  this.name = "Hello";
+  this.info = "Why is OOP so confusing?";
 }
 
 function Obj() {
   method.call(this);
 }
 let obj1 = new Obj();
-console.log(obj1);
-console.log(obj1);
+console.log(`Object1 :`, obj1);
+console.log(Object.getPrototypeOf(obj1));
 
 //ex2
 function con() {
